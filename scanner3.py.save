@@ -1,0 +1,52 @@
+import requests
+import serial 
+from time import sleep
+
+API_URL = "http://localhost:5000/check_id"
+SERIAL_PORT = "/dev/ttyUSB0"
+BAUD_RATE = 9600
+print("Connecting to Arduino...")
+
+try:
+    ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
+    sleep(2)  # Wait for Arduino reset
+    ser.flushInput()
+    ser.flushOutput()
+    print(ser.readline().decode().strip())  # Should print "Arduino Dual Relay Ready"
+except Exception as e:
+    print(f"Failed to connect to Arduino on {SERIAL_PORT}: {e}")
+    print("Check cable and port name (ls /dev/tty*)")
+    exit(1)
+
+def open_gate():
+    print("? Sending OPEN command to Arduino... (Both relays will activate)")
+    ser.write(b"OPEN\n")
+    # Optional: wait for confirmation
+    while True:
+        line = ser.readline().decode().strip()
+        if line:
+            print(f"   Arduino: {line}")
+        if "Gate Closed" in line:
+            break
+
+def scan_loop():
+    print("Ready to scan barcodes...")
+    while True:
+        try:
+            # input() captures the barcode because the scanner acts as a keyboard
+            scanned_data = input("Scan ID: ").strip()
+            
+            if scanned_data:
+                response = requests.post(API_URL, json={"barcode": scanned_data})
+                result = response.json()
+                
+                if result['status'] == 'access_granted':
+                    print(f"? [OPEN GATE]: {result['message']}")
+			
+                else:
+                    print(f"? [ACCESS DENIED]: {result['message']}")
+        except KeyboardInterrupt:
+            break
+
+if __name__ == "__main__":
+    scan_loop()

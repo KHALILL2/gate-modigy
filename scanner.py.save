@@ -1,0 +1,80 @@
+import requests
+import RPi.GPIO as GPIO
+import time
+
+# Production API details (from your image)
+API_URL = "https://batu-gate-production.abdullah.top/api/v1/gate/check-access"
+
+# Relay setup - two relays, both active LOW (standard for most modules)
+RELAY_PINS = [14, 15]  # GPIO 17 (pin 11) and GPIO 27 (pin 13)
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+for pin in RELAY_PINS:
+    GPIO.setup(pin, GPIO.OUT)
+    GPIO.output(pin, GPIO.HIGH)  # Start in safe OFF state
+
+def open_gate(duration=5):  # Increased to 5 seconds ? adjust as needed for your gate
+    print("? Gate Opening... (Both relays activated)")
+    for pin in RELAY_PINS:
+        GPIO.output(pin, GPIO.LOW)   # Activate both relays
+    time.sleep(duration)
+    for pin in RELAY_PINS:
+        GPIO.output(pin, GPIO.HIGH)  # Deactivate both
+    print("? Gate Closed")
+
+def start_scanner():
+    print("Gate System Active - Connected to Production API")
+    print("Waiting for barcode scan...\n")
+    
+    headers = {
+        "Authorization": f"Bearer {TOKE,
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    
+    while True:
+        try:
+            scanned_code = input("Scan: ").strip()
+            if not scanned_code:
+                continue
+
+            # Payload matches the image exactly
+            payload = {"bar_code": scanned_code}
+            
+            response = requests.post(API_URL, json=payload, headers=headers)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("data", {}).get("allowed") == True:
+                    name_en = data["data"].get("student", "Student")
+                    name_ar = data["data"].get("????? ???????", "")
+                    welcome_msg = data.get("message", "Welcome! Entry recorded successfully")
+                    
+                    print(f"? {welcome_msg}")
+                    if name_ar:
+                        print(f"   {name_en} - {name_ar}")
+                    else:
+                        print(f"   {name_en}")
+                    
+                    open_gate(duration=5)  # Open gate using both relays
+                else:
+                    print("? Access Denied (allowed: false)")
+            else:
+                try:
+                    error_detail = response.json()
+                    print(f"? API Error: {error_detail}")
+                except:
+                    print(f"? HTTP {response.status_code}: {response.text}")
+                    
+        except KeyboardInterrupt:
+            print("\nShutting down...")
+            break
+        except Exception as e:
+            print(f"Error: {e}")
+
+if __name__ == "__main__":
+    try:
+        start_scanner()
+    finally:
+        GPIO.cleanup()  # Always clean up GPIO pins
