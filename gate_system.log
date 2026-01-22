@@ -1,0 +1,262 @@
+2025-07-11 10:53:11,822 - INFO - GPIO Initialized. Gate CLOSED and LOCKED.
+2025-07-11 10:53:11,824 - INFO - Gate Control System Initialized (No Auto-Close).
+2025-07-11 10:53:23,919 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:53:23,921 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:53:23,922 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:53:25,124 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:53:26,625 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:53:29,126 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:53:29,127 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:53:32,051 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 10:53:32,052 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 10:53:32,053 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 10:53:33,555 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 10:53:39,060 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 10:53:39,063 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 10:53:39,064 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 10:53:40,565 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 10:53:51,958 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:53:51,961 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:53:51,971 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:53:53,174 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:53:54,675 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:53:57,176 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:53:57,177 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:54:16,064 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:54:16,069 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:54:16,072 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:54:17,275 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:54:18,776 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:54:21,277 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:54:21,278 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:54:31,015 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:54:31,018 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:54:31,022 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:54:32,226 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:54:33,727 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:54:36,228 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:54:36,229 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:54:43,520 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:54:43,524 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:54:43,525 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:54:44,727 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:54:46,228 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:54:48,729 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:54:48,730 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:55:03,903 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:55:03,905 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:55:03,907 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:55:05,109 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:55:06,611 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:55:09,112 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:55:09,118 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:55:52,886 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:55:52,893 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:55:52,894 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:55:54,096 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:55:55,597 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:55:58,098 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:55:58,099 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:56:01,627 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:56:01,629 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:56:01,630 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:56:02,831 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:56:04,332 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:56:06,833 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:56:06,835 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:56:11,941 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:56:11,945 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:56:11,951 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:56:13,157 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:56:14,658 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:56:17,159 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:56:17,160 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:56:41,330 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:56:41,333 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:56:41,336 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:56:42,539 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:56:44,040 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:56:46,541 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:56:46,543 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:56:56,029 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 10:56:56,032 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 10:56:56,034 - INFO -   Step 1: Opening the lock.
+2025-07-11 10:56:57,236 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 10:56:58,736 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 10:57:01,237 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 10:57:01,239 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 10:57:01,874 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 10:57:01,877 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 10:57:01,880 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 10:57:03,381 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 10:57:27,429 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 10:57:27,430 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 10:57:27,432 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 10:57:28,935 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:08:30,059 - INFO - Shutting down...
+2025-07-11 11:08:30,060 - INFO - GPIO cleanup completed
+2025-07-11 11:15:06,330 - INFO - GPIO Initialized. Gate CLOSED and LOCKED.
+2025-07-11 11:15:06,331 - INFO - Gate Control System Initialized (No Auto-Close).
+2025-07-11 11:15:08,353 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:15:08,356 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:15:08,359 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:15:09,560 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:15:11,061 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:15:13,562 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:15:13,563 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:15:26,057 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:15:26,060 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:15:26,063 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:15:27,266 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:15:28,767 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:15:31,268 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:15:31,274 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:15:38,427 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:15:38,429 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:15:38,431 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:15:39,633 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:15:41,134 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:15:43,635 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:15:43,637 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:15:51,459 - INFO - Shutting down...
+2025-07-11 11:15:51,460 - INFO - GPIO cleanup completed
+2025-07-11 11:19:25,038 - INFO - GPIO Initialized. Gate CLOSED and LOCKED.
+2025-07-11 11:19:25,039 - INFO - Gate Control System Initialized (No Auto-Close).
+2025-07-11 11:19:30,819 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:19:30,821 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:19:30,822 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:19:32,023 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:19:33,524 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:19:36,025 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:19:36,026 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:19:45,148 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:19:45,151 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:19:45,152 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:19:46,354 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:19:47,855 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:19:50,356 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:19:50,359 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:20:03,162 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:20:03,166 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:20:03,168 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:20:04,370 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:20:05,871 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:20:08,371 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:20:08,373 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:14,436 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:14,440 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:14,442 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:15,643 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:17,145 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:19,647 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:19,648 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:19,906 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 11:21:19,909 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 11:21:19,910 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 11:21:21,412 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:21:22,590 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:22,591 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:22,592 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:23,793 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:25,294 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:27,796 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:27,797 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:29,583 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 11:21:29,585 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 11:21:29,586 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 11:21:31,087 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:21:34,272 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:34,274 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:34,275 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:35,477 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:36,978 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:38,101 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 11:21:39,480 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:39,482 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:39,483 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 11:21:39,485 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 11:21:39,574 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:40,987 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:21:40,987 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:40,988 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:42,189 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:43,691 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:46,106 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 11:21:46,193 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:46,194 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:46,195 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 11:21:46,196 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 11:21:47,644 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:47,697 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:21:47,698 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:47,699 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:48,899 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:50,401 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:52,312 - INFO - GUI COMMAND: Open Gate received.
+2025-07-11 11:21:52,902 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:52,905 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:52,906 - INFO - SEQUENCE: OPEN GATE starting.
+2025-07-11 11:21:52,906 - INFO -   Step 1: Moving servo to OPEN position.
+2025-07-11 11:21:53,925 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:54,407 - INFO - SEQUENCE COMPLETE: Gate OPEN - servo only.
+2025-07-11 11:21:54,407 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:54,408 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:21:55,609 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:21:57,110 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:21:58,342 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:21:59,611 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:21:59,611 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:21:59,612 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:21:59,613 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:22:00,814 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:22:02,315 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:22:04,816 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:22:04,817 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:22:29,746 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:22:29,751 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:22:29,753 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:22:30,955 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:22:32,457 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:22:34,957 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:22:34,958 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:22:44,428 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:22:44,430 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:22:44,432 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:22:45,635 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:22:47,136 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:22:49,636 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:22:49,642 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:22:55,118 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:22:55,121 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:22:55,122 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:22:56,324 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:22:57,825 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:23:00,326 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:23:00,329 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:24:00,778 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:24:00,781 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:24:00,784 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:24:01,987 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:24:03,488 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:24:05,990 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:24:05,991 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:24:39,755 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:24:39,758 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:24:39,761 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:24:40,963 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:24:42,465 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:24:44,965 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:24:44,966 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:25:28,526 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:25:28,528 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:25:28,529 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:25:29,731 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:25:31,232 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+2025-07-11 11:25:33,733 - INFO -   Step 4: Closing the lock after servo completely finished.
+2025-07-11 11:25:33,734 - INFO - SEQUENCE COMPLETE: Gate CLOSED - Lock operated correctly.
+2025-07-11 11:25:39,854 - INFO - GUI COMMAND: Close Gate received.
+2025-07-11 11:25:39,857 - INFO - SEQUENCE: CLOSE GATE starting.
+2025-07-11 11:25:39,858 - INFO -   Step 1: Opening the lock.
+2025-07-11 11:25:41,060 - INFO -   Step 2: Moving servo to CLOSE position.
+2025-07-11 11:25:42,562 - INFO -   Step 3: Waiting for servo to completely finish rotation...
+                                                                                                                                                                                        
